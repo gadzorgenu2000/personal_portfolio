@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Resume</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                 <svg width= "30" height= "30">
+                     <path d="M0,5 30,5 " stroke=" #fff" stroke-width="5"/>
+                     <path d="M0,14 30,14 " stroke=" #fff" stroke-width="5"/>
+                     <path d="M0,23 30,23" stroke=" #fff" stroke-width="5"/>
+                 </svg>
+                </a>
+            </span>
+           
+            <ul class="topnav">
+                <li class="brand">Georgina<span class="sweetie">Adzorgenu</span></li>
+                <li class="topnav-right"><a href="./resume.html">Resume</a></li>
+                <li class="topnav-right"><a href="./contact.html">Contact</a></li>
+                <li class="topnav-right"><a href="./home.html">Home</a></li>
+
+            </ul>
+         </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="./home.html">Home</a>
+             <a href="./contact.html">Contact</a>
+             <a href="./resume.html">Resume</a></li>
+        </div >
+        <div class="container-1" id="section-1">           
+            <div class="row">
+              <div class="col-12">
+                  <div class="col">
+                    <h1 class="main">Dig a little deeper</h1>
+                    <button type="button" class="btn-notify btn-lg">DOWNLOAD RESUME</button> 
+                  </div>
+              </div> 
+            </div>           
+        </div>
+        <div class="container-2" id="section-1">           
+            <div class="row">
+              <div class="col-4">
+                  <div class="col">
+                    <h1 class="tech">Technologies</h1>
+                  </div>  
+            </div>
+            <div class="col-4">
+                <div class="col">
+                  <h1 class="daily-skills">Day-To-Day Comfort</h1>
+                  <ul>
+                      <li class="skills">HTML5 / CSS3</li>
+                      <li class="skills">Javascript/JQuery</li>
+                      <li class="skills">Version Control ( Git)</li>
+                      <li class="skills">Agile Methodology</li>
+                      <li class="skills">Web Development</li>
+                      <li class="skills">Microsoft Office</li>
+                      <li class="skills">Boostrap</li>
+                      <li class="skills">Responsive Layout and Design</li>
+                      <li class="skills">Chatbot Design with IBM Watson Assistant</li>
+                  </ul>
+                </div>  
+          </div>
+          <div class="col-4">
+            <div class="col">
+              <h1 class="experience">Experience with</h1>
+              <ul>
+                <li class="exp">Node js</li>
+                <li class="exp">React js</li>
+            </ul>
+            </div>  
+         </div>           
+        </div>
+        <div class="container-2" id="section-3">           
+            <div class="row">
+                <div class="col-3">
+                  <div class="col">
+                    <h1 class="tech">Work Experience</h1>
+                  </div>  
+            </div>
+            
+          <div class="col-6">
+            <div class="col work_experience">
+              <h1 class="experience">Lead Developer</h1>
+              <h3> Software Engineering class - February 2020</h3>
+              <p class="work">Acted as Project Manager and Lead Developer for the web design project.
+                  Organized all web design operations and mentored a 
+                  growing team of developers.Experienced in programming , 
+                  debugging and problem solving across a variety of open source platforms
+              </p>
+
+              <h3> Certifications</h3>
+                 Click <a class="certificate" href="https://www.youracclaim.com/earner/earned">here</a> to see my certificates from IBM</a>
+            </div>  
+         </div>           
+        </div>
+        </div>
+        <div class="container-2 education" >           
+            <div class="row">
+                <div class="col-3">
+                  <div class="col">
+                    <h1 class="edu">Education</h1>
+                  </div>  
+            </div>
+            
+          <div class="col-6">
+            <div class="col general_edu">
+                <h2>Bachelor's Degree</h2>
+                <p>University of Ghana, 2017-2021</p>
+                <p>Computer Science, Information Science</p>
+                <h3>General Education</h3>
+                <p>Accra Girls Senior High, 2014-2017</p>
+
+            </div>  
+         </div>           
+        </div>
+        </div>
+
+        <footer class="footer" id="footy">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="footnote">Let me build the website you need.</h1>
+                </div>
+            </div>
+            <div class="row" id="last">
+              <div class="col-12">
+                 <p class="footer-element">Designed by <span class="gyn">Gyna </span></p>
+              </div>
+            </div>
+           </footer>
+        
+           <script>
+            function openSlideMenu() {
+             document.getElementById("side-menu").style.width="250px";
+             document.getElementById("main").style.marginLeft="250px";
+            }
+            function closeSlideMenu() {
+             document.getElementById("side-menu").style.width="0";
+             document.getElementById("main").style.marginLeft="0";
+            }
+        </script>
+ 
+    </body>
+</html>

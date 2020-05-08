@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contact</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="contact_body">
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                 <svg width= "30" height= "30">
+                     <path d="M0,5 30,5 " stroke=" #fff" stroke-width="5"/>
+                     <path d="M0,14 30,14 " stroke=" #fff" stroke-width="5"/>
+                     <path d="M0,23 30,23" stroke=" #fff" stroke-width="5"/>
+                 </svg>
+                </a>
+            </span>
+           
+            <ul class="topnav">
+                <li class="brand">Georgina<span class="sweetie">Adzorgenu</span></li>
+                <li class="topnav-right"><a href="./resume.html">Resume</a></li>
+                <li class="topnav-right"><a href="./contact.html">Contact</a></li>
+                <li class="topnav-right"><a href="./home.html">Home</a></li>
+
+            </ul>
+         </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="./home.html">Home</a>
+             <a href="./contact.html">Contact</a>
+             <a href="./resume.html">Resume</a></li>
+        </div >
+        <div class="contact">
+                <div class="row onnect">
+                    <div class="col-12">
+                        <h2 class="connect">Connect with me today.</h2> 
+                        <h4 class="hook"> Hook me up on <a href="https://www.linkedin.com/in/georgina-adzorgenu-09474a185/">
+                            LinkedIn</a> or <a href="https://twitter.com/91870899410948a">Twitter </a>  or
+                        </h4>
+                        <a href="https://www.instagram.com/gynasweetie/">Instagram</a>
+                        <h5 class="reach_out">You can reach out to  me directly. </h5>
+                        <h6 class="call">Call <span class="number"> +233556514914</span>  Mon-Fri : 9am -5pm GMT.</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            function openSlideMenu() {
+             document.getElementById("side-menu").style.width="250px";
+             document.getElementById("main").style.marginLeft="250px";
+            }
+            function closeSlideMenu() {
+             document.getElementById("side-menu").style.width="0";
+             document.getElementById("main").style.marginLeft="0";
+            }
+        </script>
+ 
+    </body>
+</html>
